@@ -1,7 +1,7 @@
 ﻿
 namespace VIK
 {
-    partial class Form1
+    partial class Launch
     {
         /// <summary>
         /// Required designer variable.
@@ -79,7 +79,7 @@ namespace VIK
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // Form1
+            // Launch
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -89,8 +89,8 @@ namespace VIK
             this.Controls.Add(this.txbVolume);
             this.Controls.Add(this.lbPalabrasReconocidas);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Launch";
+            this.Text = "VIK";
             this.ResumeLayout(false);
             this.PerformLayout();
 
