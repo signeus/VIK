@@ -1,0 +1,9 @@
+C:\Users\Signeus\Source\Repos\MVP\VIK\bin\Debug\VIK.exe.config
+C:\Users\Signeus\Source\Repos\MVP\VIK\bin\Debug\VIK.exe
+C:\Users\Signeus\Source\Repos\MVP\VIK\bin\Debug\VIK.pdb
+C:\Users\Signeus\Source\Repos\MVP\VIK\obj\Debug\VIK.csprojResolveAssemblyReference.cache
+C:\Users\Signeus\Source\Repos\MVP\VIK\obj\Debug\VIK.Form1.resources
+C:\Users\Signeus\Source\Repos\MVP\VIK\obj\Debug\VIK.Properties.Resources.resources
+C:\Users\Signeus\Source\Repos\MVP\VIK\obj\Debug\VIK.csproj.GenerateResource.Cache
+C:\Users\Signeus\Source\Repos\MVP\VIK\obj\Debug\VIK.exe
+C:\Users\Signeus\Source\Repos\MVP\VIK\obj\Debug\VIK.pdb

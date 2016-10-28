@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<grammar version="1.0" xml:lang="es-ES"
+	xmlns="http://www.w3.org/2001/06/grammar"
+	tag-format="semantics/1.0" root="Main" >
+
+	<rule id="Main">
+		<item>
+			<ruleref uri="#Numbers" />
+		</item>
+	</rule>
+	
+	<rule id="Numbers" scope="public">
+		<one-of>
+			<item> VIK </item>
+			<item> Iniciar </item>
+			<item> Destruir </item>
+		</one-of>
+	</rule>
+</grammar>
