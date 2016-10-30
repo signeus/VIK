@@ -7,3 +7,12 @@ C:\Users\cash\Sources\CsWorkspace\VIK\obj\Debug\VIKApp.csprojResolveAssemblyRefe
 C:\Users\cash\Sources\CsWorkspace\VIK\obj\Debug\VIK.Launch.resources
 C:\Users\cash\Sources\CsWorkspace\VIK\obj\Debug\VIK.Properties.Resources.resources
 C:\Users\cash\Sources\CsWorkspace\VIK\obj\Debug\VIKApp.csproj.GenerateResource.Cache
+C:\Users\Signeus\Source\Repos\VIK\bin\Debug\VIK.exe.config
+C:\Users\Signeus\Source\Repos\VIK\obj\Debug\VIK.exe
+C:\Users\Signeus\Source\Repos\VIK\obj\Debug\VIK.pdb
+C:\Users\Signeus\Source\Repos\VIK\bin\Debug\VIK.exe
+C:\Users\Signeus\Source\Repos\VIK\bin\Debug\VIK.pdb
+C:\Users\Signeus\Source\Repos\VIK\obj\Debug\VIKApp.csprojResolveAssemblyReference.cache
+C:\Users\Signeus\Source\Repos\VIK\obj\Debug\VIK.Launch.resources
+C:\Users\Signeus\Source\Repos\VIK\obj\Debug\VIK.Properties.Resources.resources
+C:\Users\Signeus\Source\Repos\VIK\obj\Debug\VIKApp.csproj.GenerateResource.Cache

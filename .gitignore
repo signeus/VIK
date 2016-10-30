@@ -1,2 +1,3 @@
 #Ignore visual Studio folders
 .vs/*
+bin/Debug/VIK.vshost.exe.manifest
