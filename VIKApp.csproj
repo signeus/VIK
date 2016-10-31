@@ -47,8 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\FileModule\FileManager.cs" />
     <Compile Include="Core\GrammarManager.cs" />
     <Compile Include="Core\SpeechManager.cs" />
+    <Compile Include="Core\SynthesizerModule\VIKSynthesizer.cs" />
+    <Compile Include="Core\VirtualKeyboardModule\VIKKeyboardController.cs" />
+    <Compile Include="Core\XmlModule\XmlManager.cs" />
     <Compile Include="Launch.cs">
       <SubType>Form</SubType>
     </Compile>

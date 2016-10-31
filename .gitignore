@@ -1,3 +1,7 @@
 #Ignore visual Studio folders
 .vs/*
+
+#Ignore debug folder and files
 bin/Debug/VIK.vshost.exe.manifest
+bin/Debug/**/*
+bin/Debug/*
