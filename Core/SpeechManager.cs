@@ -10,13 +10,11 @@ namespace VIK.Core
         private SpeechRecognitionEngine _recognizer = null;
         private GrammarManager grammarManager = null;
         private bool IsActive = false;
-
-        public List<String> HypoWordList { get; set; }
+        
         public List<String> WordList { get; set; }
 
         public SpeechManager()
         {
-            HypoWordList = new List<string>();
             WordList = new List<string>();
 
             grammarManager = new GrammarManager();
@@ -26,7 +24,7 @@ namespace VIK.Core
         {
             StopSpeech();
             grammarManager = new GrammarManager(fileName);
-            Thread.Sleep(250);
+            Thread.Sleep(200);
             StartSpeech();
             _recognizer.UnloadAllGrammars();
             _recognizer.LoadGrammar(grammarManager.CustomGrammar());

@@ -47,6 +47,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\Entities\CommandEntity.cs" />
+    <Compile Include="Core\Entities\FileEntity.cs" />
     <Compile Include="Core\FileModule\FileManager.cs" />
     <Compile Include="Core\GrammarManager.cs" />
     <Compile Include="Core\SpeechManager.cs" />

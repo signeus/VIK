@@ -5,3 +5,7 @@
 bin/Debug/VIK.vshost.exe.manifest
 bin/Debug/**/*
 bin/Debug/*
+
+#Ignore files from obj/Debug
+obj/Debug/**/*
+obj/Debug/*
