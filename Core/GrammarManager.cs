@@ -24,7 +24,7 @@ namespace VIK.Core
             if (String.IsNullOrWhiteSpace(fileGrammar))
                 return DefaultGrammar();
 
-            Grammar customGrammar = new Grammar(AppDomain.CurrentDomain.BaseDirectory + "//" + fileGrammar);
+            Grammar customGrammar = new Grammar(AppDomain.CurrentDomain.BaseDirectory  + fileGrammar);
             // TODO Decide if the xml have some format for Description or other things.
             customGrammar.Name = "Test";
 

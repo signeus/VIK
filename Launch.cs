@@ -19,6 +19,7 @@ namespace VIK
         {
             InitializeComponent();
 
+            dgvTags.Hide();
             
             FileManager fileManager = new FileManager();
             dictionary = fileManager.RecoverFileDictionary();
@@ -57,6 +58,13 @@ namespace VIK
             XmlManager xmlManager = new XmlManager();
             xmlManager.LoadFileByDictionary(dictionary, entity.Name);
             List<CommandEntity> items = xmlManager.RecoverItems();
+            
+            //Clearing the DataGridView
+            dgvTags.DataSource = null;
+            dgvTags.Rows.Clear();
+
+            dgvTags.DataSource = items;
+            dgvTags.Show();
         }
 
         private FileEntity FindFileSelected(string name)
@@ -72,7 +80,7 @@ namespace VIK
         private void CreateFileXML()
         {
             XmlManager xml = new XmlManager();
-            xml.CreateXml("test1.xml");
+            xml.CreateTemplateXml("test1.xml");
         }
     }
 }
