@@ -10,7 +10,8 @@ namespace VIK.Core
         private SpeechRecognitionEngine _recognizer = null;
         private GrammarManager grammarManager = null;
         private bool IsActive = false;
-        
+
+
         public List<String> WordList { get; set; }
 
         public SpeechManager()
